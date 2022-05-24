@@ -85,6 +85,10 @@ input[type="text"], input[type="Password"]{
     border-radius: 3px;
 }
 
+.newsletter{
+    background: darkblue;
+}
+
 .news{
     display: flex;
     justify-content: space-around;
@@ -95,6 +99,7 @@ div.news1 input[type="text"]{
     width: 400px;
     height: 50px;
 	border-radius: 5px 0px 0px 5px;
+    box-shadow: 5px 5px 20px rgb(41, 41, 211);
 }
 
 div.news1 input[type="submit"]{
@@ -102,7 +107,39 @@ div.news1 input[type="submit"]{
     height: 50px;
 	background: blue;
 	color: white;
-	border-radius: 5px;
+	border-radius: 0px 5px 5px 0px;
 }
+
+.subscribe{
+    display: flex;
+    margin-top: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+ul.end li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+ul.end li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul.end li:first-child{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
 
 

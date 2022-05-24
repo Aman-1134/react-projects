@@ -84,18 +84,52 @@ const Body3 = () => {
         <div className="newsletter">
             <div className="news">
                 <div className="news1">
-                    <h2>Join Our Newsletter</h2>
-                    <p>Sign Up to stay updated with the latest insights,<br></br>news and more.</p>
+                    <h2 className='white'>Join Our Newsletter</h2>
+                    <p className='white'>Sign Up to stay updated with the latest insights,<br></br>news and more.</p>
                 </div>
 
                 <div className="news1">
                 <form action="#">
-                    <input className="email" type="text" id="lname" name="lname" placeholder="Your Email Address"></input><br></br>
-
+                    <div className="subscribe">
+                        <input className="email" type="text" id="lname" name="lname" placeholder="Your Email Address"></input><br></br>
                         <input type="submit" value="Subscribe"></input>
+                    </div>
                 </form>
                 </div>
             </div>
+
+            <div className="list">
+                    <ul className="end">
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">What We Do</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <ul className="end">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">App Development</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                    </ul>
+
+                    <ul className="end">
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Internships</a></li>
+                    </ul>
+
+                    <ul className="end">
+                        <li><a href="#">Connects With Us</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+            </div>
+
+
             
         </div>
 
