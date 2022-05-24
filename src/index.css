@@ -1,0 +1,164 @@
+/* Styling for Navbar */
+
+nav ul{
+	display: flex;
+	background-color: white;
+	justify-content: center;
+  padding-left: 5%;
+	line-height: 50px;
+  
+}
+
+nav ul li{
+	list-style-type: none;
+  padding-right: 5%;
+  font-size: 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+  color: black;
+
+}
+
+#login-button{
+  font-size: 15px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 20px;
+  border: 2px solid rgb(9, 9, 109);
+  background-color: white;
+  display: inline-block;
+  box-shadow: -2px 2px 1px rgb(9, 9, 109);
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+#logo{
+margin-right: 150px;
+margin-top: 10px;
+}
+
+
+.fa{
+	padding: 10px;
+}
+
+nav ul li a:hover{
+	color: rgb(9, 9, 109);
+
+}
+
+nav ul li:hover ul{
+	display: block;
+	position: absolute;
+	padding: 0px 10px;
+}
+
+.fa{
+	padding-right: 8px;
+}
+
+
+/* Styles for body*/
+
+.row{
+  background: linear-gradient(to right, rgb(3, 3, 160) 0%, rgb(90, 90, 227) 100%);
+  margin-top: 10px;
+  border-radius: 0px 0px 150px 0px;
+}
+
+.arrange{
+  text-align: start;
+  padding: 100px 0px 100px 30px;
+}
+
+.arrange h1, h3, p{
+  margin-top: 20px;
+  color: white;
+}
+
+.arrange h1{
+  font-size: 40px;
+}
+
+.arrange h3{
+  font-size: 30px;
+}
+
+.arrange p{
+  font-size: 15px;
+  color: white;
+}
+
+.arrange h1{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.row{
+  display: flex;
+}
+
+.Body-Button{
+  margin-top: 20px;
+  background: linear-gradient(to right, rgb(34, 34, 174) 0%, rgb(103, 103, 216) 100%);
+  padding: 5px 10px 5px 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid silver;
+  box-shadow: -2px 2px 1px rgb(9, 9, 109);
+}
+
+.Body-Image{
+  padding: 7% 2% 1% 10%;
+}
+
+/*styles for body2*/
+
+.intro{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro h1{
+  margin-top: 10px;
+}
+
+.intro p{
+  color: black;
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+}
+
+span{
+  color: rgb(30, 30, 134);
+}
+
+.features{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.part2{
+  margin: 10px 80px 30px 80px;
+  background: rgb(248, 247, 247);
+  padding: 3% 5% 3% 5%;
+  border-radius: 30px 30px;
+  box-shadow: 5px 5px 30px #dad7d7;
+}
+
+.part2 h3, p{
+  color: black;
+}
+
+p.service{
+  font-size: 12px;
+  margin-left: 150px;
+}
+
+
+
