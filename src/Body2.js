@@ -1,3 +1,7 @@
+import { GoCheck, GoDeviceDesktop, GoDesktopDownload, GoGraph, GoPencil, GoFileDirectory, GoDeviceMobile } from "react-icons/go";
+import { IconContext } from "react-icons";
+
+
 const Body2 = () => {
     return (
         <div className="body2">
@@ -37,12 +41,95 @@ const Body2 = () => {
                 </div>
             </div>
 
+            <p className="services"><b><GoCheck /> OUR SERVICES</b></p>
+            
             <div className="our-services">
-                <div className="p">
-                    <p className="service"><b>OUR SERVICE</b></p>
-                    <h1>Get <span>Exceptional</span><br></br>Service From Growth</h1>
-                </div>
+                <ul className="ar">
+                    <li><div className="p">
+                        <h1>Get <span>Exceptional</span><br></br>Service From Growth</h1>
+                    </div>
+                    </li><hr></hr>
+
+                    <li><div className="p">
+                        <p>Our experience team is here to help you grou your business to a<br></br>
+                        new height. We gurantee to provide services at its best to help you<br></br>
+                        convert your idea into a brand.
+                        </p>
+                    </div>
+                    </li>
+                </ul>
             </div>
+            <IconContext.Provider value={{color:'rgb(36, 36, 169)', size:'3em'}}>
+                <div className="services2">
+                    <div className="row-s">
+                        <div className="col">
+                            <p><GoDeviceDesktop /></p>
+                            <h4>Web Development</h4>
+                            <p>Multi-Vendor E-commerce to Small Website, Payment<br></br>
+                            Integration, API Integration, Domain Registration, Web<br></br>
+                            Hosting, Website Redesign.
+                            </p>
+
+                            <p class="read"><b>Read More →</b></p>
+                        </div>
+
+                        <div className="col">
+                            <p><GoDeviceMobile /></p>
+                            <h4>Application Development</h4>
+                            <p>Multi-Vendor E-commerce to Small Website, Payment<br></br>
+                            Integration, API Integration, Domain Registration, Web<br></br>
+                            Hosting, Website Redesign.
+                            </p>
+                            <p class="read"><b>Read More →</b></p>
+                        </div>
+
+                        <div className="col">
+                            <p><GoDesktopDownload /></p>
+                            <h4>Graphics Design</h4>
+                            <p>Multi-Vendor E-commerce to Small Website, Payment<br></br>
+                            Integration, API Integration, Domain Registration, Web<br></br>
+                            Hosting, Website Redesign.
+                            </p>
+                            <p class="read"><b>Read More →</b></p>
+                        </div>
+                    </div>
+
+
+
+                    <div className="row-s">
+                        <div className="col">
+                            <p><GoGraph /></p>
+                            <h4>Digital Marketing</h4>
+                            <p>Multi-Vendor E-commerce to Small Website, Payment<br></br>
+                            Integration, API Integration, Domain Registration, Web<br></br>
+                            Hosting, Website Redesign.
+                            </p>
+                            <p class="read"><b>Read More →</b></p>
+                        </div>
+
+                        <div className="col">
+                            <p><GoPencil /></p>
+                            <h4>Blog</h4>
+                            <p>Multi-Vendor E-commerce to Small Website, Payment<br></br>
+                            Integration, API Integration, Domain Registration, Web<br></br>
+                            Hosting, Website Redesign.
+                            </p>
+                            <p class="read"><b>Read More →</b></p>
+                        </div>
+
+                        <div className="col">
+                            <p><GoFileDirectory /></p>
+                            <h4>Contact Support</h4>
+                            <p>Multi-Vendor E-commerce to Small Website, Payment<br></br>
+                            Integration, API Integration, Domain Registration, Web<br></br>
+                            Hosting, Website Redesign.
+                            </p>
+                            <p class="read"><b>Read More →</b></p>
+                        </div>
+                    </div>
+                </div>
+            </IconContext.Provider>
+            
 
         </div>
      );
