@@ -7,6 +7,15 @@ import React from './react.jpg';
 import Sass from './sass.png';
 import php from './php.png';
 
+import a1 from './a1.png';
+import a2 from './a2.png';
+import a3 from './a3.png';
+
+import p1 from './p1.jpg';
+import p2 from './p2.jpg';
+import p3 from './p3.jpg';
+import p4 from './p4.jpg';
+
 const Body3 = () => {
     return (
         <div className="body-3">
@@ -32,6 +41,58 @@ const Body3 = () => {
             <p><b>Our <span>Customers</span></b></p>
             <h1 className='abcd'>Our <span>Clients</span> Love Our Work</h1>
             <p>But dont just take our work for it...</p>
+        </div>
+
+        <div className='im'>
+            <img className='imag' src={ a1 } height={150} width={150}></img>
+            <img className='imag' src={ a2 } height={150} width={150}></img>
+            <img className='imag' src={ a3 } height={150} width={150}></img>
+            <img className='imag' src={ a2 } height={150} width={150}></img>
+        </div>
+
+        <div className='Trust'>
+            <p>Our Testimonials</p>
+            <h1>What our <span>Trustworthy</span> client say</h1>
+
+            <div className='ap'>
+                <div className='a1'>
+                    <div className='a2'>
+                        <img src={p1} alt="picture-p1" height={200} width={200}></img>
+
+                        <p>Lorem Ipsum is simply dummy text of<br></br>
+                        the printing and typesetting industry.<br></br>
+                        Lorem Ipsum has been the industry's<br></br>
+                        standard dummy text ever since the 1500s</p>
+                    </div>
+
+                    <div className='a2'>
+                        <img src={p2} alt="picture-p2" height={200} width={200}></img>
+
+                        <p>Lorem Ipsum is simply dummy text of<br></br>
+                        the printing and typesetting industry.<br></br>
+                        Lorem Ipsum has been the industry's<br></br>
+                        standard dummy text ever since the 1500s</p>
+                    </div>
+
+                    <div className='a2'>
+                        <img src={p3} alt="picture-p3" height={200} width={200}></img>
+
+                        <p>Lorem Ipsum is simply dummy text of<br></br>
+                        the printing and typesetting industry.<br></br>
+                        Lorem Ipsum has been the industry's<br></br>
+                        standard dummy text ever since the 1500s</p>
+                    </div>
+
+                    <div className='a2'>
+                        <img src={p4} alt="picture-p4" height={200} width={200}></img>
+
+                        <p>Lorem Ipsum is simply dummy text of<br></br>
+                        the printing and typesetting industry.<br></br>
+                        Lorem Ipsum has been the industry's<br></br>
+                        standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div className='tech'>
@@ -128,12 +189,8 @@ const Body3 = () => {
                         <li><a href="#">Youtube</a></li>
                     </ul>
             </div>
-
-
-            
         </div>
 
-        
         </div>
      );
 }

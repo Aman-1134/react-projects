@@ -26,6 +26,35 @@ div.p2{
     text-align: center;
 }
 
+.im{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10% 10px 10%;
+}
+
+.Trust{
+    text-align: center;
+}
+
+.Trust h1{
+    margin-bottom: 20px;
+}
+
+.ap{
+    background: rgb(236, 236, 248);
+    padding: 20px 20px;
+}
+
+.a1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.a1 img{
+    border-radius: 200px;
+}
+
 .tech, .login{
     display: flex;
     justify-content: space-around;
@@ -123,6 +152,7 @@ div.news1 input[type="submit"]{
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 ul.end li{
@@ -139,6 +169,7 @@ ul.end li:first-child{
     font-size: 30px;
     margin-bottom: 10px;
 }
+
 
 
 
