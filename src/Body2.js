@@ -1,7 +1,6 @@
 import { GoCheck, GoDeviceDesktop, GoDesktopDownload, GoGraph, GoPencil, GoFileDirectory, GoDeviceMobile } from "react-icons/go";
 import { IconContext } from "react-icons";
 
-
 const Body2 = () => {
     return (
         <div className="body2">
@@ -15,6 +14,7 @@ const Body2 = () => {
                 </p>
             </div>
 
+            <IconContext.Provider value={{color:'rgb(36, 36, 169)', size:'3em'}}>
             <div className="features">
                 <div className="part1">
                     <div className="part2">
@@ -40,6 +40,7 @@ const Body2 = () => {
                     </div>
                 </div>
             </div>
+            </IconContext.Provider>
 
             <p className="services"><b><GoCheck /> OUR SERVICES</b></p>
             
