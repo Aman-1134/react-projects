@@ -107,6 +107,7 @@ nav ul li:hover ul{
   font-size: 20px;
   border: 1px solid silver;
   box-shadow: -2px 2px 1px rgb(9, 9, 109);
+  cursor: pointer;
 }
 
 .Body-Image{
